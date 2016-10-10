@@ -1,0 +1,91 @@
+/*
+Theme Name:   	GLab Store
+Theme URI:    	https://ivanzuniga.com/glab
+Author:         Iván Zúñiga
+Author URI:     https://ivanzuniga.com/
+Description:  	GLab Store, plantilla desarrollada para el sitio gaming-lab.net
+Version:      	0.0.1
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+.woocommerce-MyAccount-navigation-link{
+	list-style:none; border-radius: 4px;
+	 padding:6px 10px;
+	 margin:5px;
+	 background-color:gray;
+	 color:#ffffff!important;
+}
+.woocommerce-MyAccount-navigation-link a{
+	color:#fff;
+} 
+.woocommerce-MyAccount-navigation-link.is-active{
+	background-color: gray;
+}
+*/
+.menuheader{
+	background-color: #0F0F0F;
+}
+
+.menuheader a{
+	color:white;
+}
+
+.menuheader a:hover{
+	border-color: none;
+	color:black;
+}
+
+.menuprincipal{
+	background-color: #078A9C;
+}
+
+.menuprincipal a{
+	color:white;
+}
+
+.menuprincipal a:hover{
+	border-color: none;
+	color:black;
+}
+
+.tituloedit{
+	padding: 15px;
+	background-color: #DEDEDE;
+}
+
+.footer{
+	padding: 15px;
+	background-color: #0F0F0F;
+
+}
+
+ul.products{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li.product{
+	 float: left;
+}
+
+li.product a{
+	display: block;
+    padding: 14px 16px;
+}
+
+.images img{
+	max-width: 100%;
+    height: auto;
+}
+
+ul.post-categories{
+	list-style-type: none;
+}
+
+time{
+	display: block;
+}
+
+
