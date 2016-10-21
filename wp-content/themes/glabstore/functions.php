@@ -4,7 +4,9 @@
 		register_nav_menus(
 			array(
 				'menu-principal' => __('Menú principal'),
-				'menu-header' => __('Menú header')
+				'menu-header' => __('Menú header'),
+				'menu-slider' => __('Menú slider'),
+				'menu-login' => __('Menú login')
 				)
 			);
 	}
@@ -15,8 +17,8 @@
 			array(
 				'name' => __('Sidebar'),
 				'id' => __('sidebar'),
-				'before_widget' => '<div class="col-md-3><div class="widget">',
-				'after_widget' => '</div></div>',
+				'before_widget' => '<div class="widget">',
+				'after_widget' => '</div>',
 				'before_title' => '<h4>',
 				'after_title' => '</h4>',
 			)
@@ -44,6 +46,7 @@
 	function scripts_elementales(){
 		wp_enqueue_style('bootstrapstyle', get_template_directory_uri() . '/assets/css/bootstrap.css');
 		wp_enqueue_style('style', get_stylesheet_uri() );
+		wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/assets/css/font-awesome.min.css');
 		wp_enqueue_style('jQuery');
 		wp_enqueue_style('bootstrapscript', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(jQuery), true);
 	}

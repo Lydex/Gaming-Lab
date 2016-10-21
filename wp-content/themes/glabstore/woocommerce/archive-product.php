@@ -30,6 +30,7 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_breadcrumb - 20
 		 */
 		do_action( 'woocommerce_before_main_content' );
+		echo '<div class="col-md-9">';
 	?>
 		
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
@@ -94,7 +95,9 @@ get_header( 'shop' ); ?>
 		 *
 		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
 		 */
-		do_action( 'woocommerce_after_main_content' );
+		
+			do_action( 'woocommerce_after_main_content' );
+		echo '</div>';
 	?>
 
 	<?php
@@ -103,7 +106,6 @@ get_header( 'shop' ); ?>
 		 *
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
-
 			do_action( 'woocommerce_sidebar' );
 		/* WIDGETS */
 	?>

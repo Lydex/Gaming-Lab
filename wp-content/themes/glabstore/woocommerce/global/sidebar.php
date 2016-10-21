@@ -21,3 +21,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_sidebar( 'shop' ); ?>
+
